@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             println("-----")
         }
         
-        ShareSDK.getUserInfoWithType(shareType, authOptions: nil) { (BOOL result, userInfo : ISSPlatformUser!, error : ICMErrorInfo!) -> Void in
+        ShareSDK.getUserInfoWithType(shareType, authOptions: nil) { (BOOL result, userInfo : ISSPlatformUser!, error : ICMErrorInfo!) in
             if(result){
                 
                 println("授权成功,已经获取用户信息")
