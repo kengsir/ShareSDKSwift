@@ -11,7 +11,6 @@
 
 #import <ShareSDK/ShareSDK.h> 
 #import "WXApi.h"
-#import "WeiboApi.h"
 #import "WeiboSDK.h"
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/TencentOAuth.h>
